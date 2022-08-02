@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Example loop</title>
+  </head>
+  <body>
+    <div id="empty"></div>
+  </body>
+  <script>
+    var empty = document.querySelector("#empty");
+    let data = "My name is Nay Oo Lwin";
+    // let dd = data.split(" ");
+    // console.log(dd);
+    // dd.forEach((val) => {
+    //   console.log(val);
+    //   empty.textContent = val;
+    // });
+    let dd = ["one", "two", "three"];
+    for (key in dd) {
+      console.log(dd[key]);
+      document.write(dd[key]);
+    }
+
+    let users = [
+      {
+        name: "Nay Oo  Lwin",
+        age: 20,
+      },
+      {
+        name: "KO NAY",
+        age: 19,
+      },
+    ];
+
+    users.map((user) => {
+      document.write(
+        `Users name are ${user.name} and their age are ${user.age}`
+      );
+    });
+
+    let ind = users.findIndex((user) => user.age == 19);
+    console.log(ind);
+
+    console.log(Math.ceil(Math.random(Math.PI) * 4 + 1));
+  </script>
+</html>
