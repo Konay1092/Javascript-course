@@ -32,8 +32,8 @@ var num4 = 20;
 let count4 = 10;
 console.log(num4); //20
 
-var num4 = 35;
-console.log(num4); //35
+var num4 = 34;
+console.log(num4); //34
 
 // let count4 = 31;
 // console.log(count4); //error
