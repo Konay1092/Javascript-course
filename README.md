@@ -1,5 +1,5 @@
 
-# Javascript Local and Session Storage  Lesson
+# Javascript   Lesson Course
 This is a Storage Lesson for javascript.You can learn by
 step by step.
 # Do the Best
